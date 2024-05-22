@@ -585,8 +585,7 @@
     var lastDisplayedLine = token.line + numLinesAround
     var lastLineDigits = String(lastDisplayedLine).length
     var displayedLines = nLines(
-        this.buffer, 
-        (this.line - token.line) + numLinesAround + 1
+        this.buffer,
         firstDisplayedLine,
         lastDisplayedLine,
       )
